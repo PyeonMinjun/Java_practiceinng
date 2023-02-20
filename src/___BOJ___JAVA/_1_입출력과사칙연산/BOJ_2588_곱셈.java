@@ -13,17 +13,17 @@ public class BOJ_2588_곱셈 {
 
         int b1 = b;
 
-        int temp = (b % 10);
+        int maxTemp = (b % 10);
         b = (b/10);
-        System.out.println(a*temp);
+        System.out.println(a*maxTemp);
 
-        temp = (b % 10);
+        maxTemp = (b % 10);
         b = (b/10);
-        System.out.println(a*temp);
+        System.out.println(a*maxTemp);
 
-        temp = (b % 10);
+        maxTemp = (b % 10);
         b = (b / 10);
-        System.out.println(a*temp);
+        System.out.println(a*maxTemp);
 
 
         System.out.println((a* b1));
